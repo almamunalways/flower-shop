@@ -29,6 +29,10 @@ button{
     font-weight: 700;
     font-family: Lato;
     font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: #a70327;
 }
 .container{
     width: 75%;
@@ -55,4 +59,88 @@ button{
 .banner .banner_image img{
     width: 100%;
     vertical-align: middle;
+}
+.container{
+
+}
+.feature-heading{
+    max-width: 445px;
+    text-align: center;
+    margin:175px auto 45px auto;
+}
+.feature-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 18px; 
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+.section-content .flower .flower-image1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 10px 0px 50px ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-image2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 20px 10px 20px 50px ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-image3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px 10px 0px 50px ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; 
+    text-decoration-line: underline;
+}
+
+                 /* Second section start */
+
+.second-section{
+    max-width: 1920px;
+    /* height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(190, 14, 14, 0.735);
+    margin: 120px auto;
+    display: flex;
+} */
+}
+
+.second-section .containerone{
+    background: #ba1a3c;
+    max-width: 1440px;
+    height: 400px;
+    margin: 120px auto;
+    align-items: center;
+    display: flex;
+
 }
